@@ -2,13 +2,13 @@
 
 ___________________________________________________________________
 ### General description
-This repository can be used to predict the nucleosome, cohesine and polymerase coverage on bacterial genome introduced in saccharomyces cerevisiae.
+This repository can be used to predict the nucleosome, cohesine and polymerase coverage on bacterial genome introduced in _Saccharomyces cerevisiae_.
 
 The two main scripts are `Train_profile.py` and `predict_profile.py`. `Train_profile.py` can be used to train a model from genome and labels. `predict_profile.py` can be used to perform predictions on a genome given a trained model. Genome and labels are expected as numpy binary files, genomes being already one-hot encoded. The helper scripts `one_hot_encode.py`, `bw_to_npz.py` and `npz_to_bw.py` can be used to convert between the different file formats.
 
 ______________________________________________________________________
 ### Models availability
-The models trained on sacchomyceres cerevisiae to predict the nucleosome, polymerase and cohesine coverage are available in Trainedmodels.
+The models trained on _Saccharomyces cerevisiae_ to predict the nucleosome, polymerase and cohesine coverage are available in Trainedmodels.
 
 ___________________________________________________________________________
 ### Data availability
